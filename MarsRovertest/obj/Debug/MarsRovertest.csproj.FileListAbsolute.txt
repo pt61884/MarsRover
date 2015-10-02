@@ -1,7 +1,0 @@
-C:\Git\MarsRover\MarsRovertest\bin\Debug\MarsRovertest.dll
-C:\Git\MarsRover\MarsRovertest\bin\Debug\MarsRovertest.pdb
-C:\Git\MarsRover\MarsRovertest\bin\Debug\MarsRover.exe
-C:\Git\MarsRover\MarsRovertest\bin\Debug\MarsRover.pdb
-C:\Git\MarsRover\MarsRovertest\obj\Debug\MarsRovertest.csprojResolveAssemblyReference.cache
-C:\Git\MarsRover\MarsRovertest\obj\Debug\MarsRovertest.dll
-C:\Git\MarsRover\MarsRovertest\obj\Debug\MarsRovertest.pdb

@@ -1,4 +1,0 @@
-C:\Git\MarsRover\MarsRover\bin\Debug\MarsRover.exe
-C:\Git\MarsRover\MarsRover\bin\Debug\MarsRover.pdb
-C:\Git\MarsRover\MarsRover\obj\Debug\MarsRover.exe
-C:\Git\MarsRover\MarsRover\obj\Debug\MarsRover.pdb
