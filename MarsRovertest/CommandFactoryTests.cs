@@ -6,6 +6,12 @@ namespace MarsRovertest
     [TestClass]
     public class CommandFactoryTests
     {
+        [TestInitialize]
+        public void Setup()
+        {
+            Rover.Instance.Reset();
+        }
+
         [TestMethod]
         public void CreateCommand_GivenCommandTextForSingleCommandL_ReturnsTheCorrectRoverCommandsCommands()
         {
@@ -17,9 +23,10 @@ namespace MarsRovertest
         {
             var commandfacrory = new CommandFactory();
             var coordinate = new Coordinate(0, 0);
-
-            var commands = commandfacrory.CreateCommands(commandText,
-                new Rover(new RoverPosition(new Plateau(coordinate, coordinate), coordinate, Heading.North)));
+            var roverPosition = new RoverPosition(new Plateau(coordinate, coordinate), coordinate, Heading.North);
+            var rover = Rover.Instance;
+            rover.Position = roverPosition;
+            var commands = commandfacrory.CreateCommands(commandText,rover);
             return commands;
         }
 

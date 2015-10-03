@@ -7,7 +7,7 @@
         private readonly int _xMin;
         private readonly int _yMin;
 
-        public Plateau(Coordinate rightUpperCorCoordinate, Coordinate bottomLeftCoordinate)
+        public Plateau(Coordinate bottomLeftCoordinate, Coordinate rightUpperCorCoordinate)
         {
             _xMax = rightUpperCorCoordinate.X;
             _yMax = rightUpperCorCoordinate.Y;

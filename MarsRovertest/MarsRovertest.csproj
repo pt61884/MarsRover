@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CommandFactoryTests.cs" />
+    <Compile Include="RecieverTests.cs" />
     <Compile Include="CommandTest.cs" />
     <Compile Include="MarsRoverTests.cs" />
     <Compile Include="PlataeuTest.cs" />
